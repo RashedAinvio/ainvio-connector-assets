@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D34E68D8-8A89-44C6-BB32-A0CCDF67DEEF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Project1</RootNamespace>
+    <AssemblyName>Project1</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="css\fonts\DejaVu\DejaVuSans-Bold.ttf" />
+    <None Include="css\fonts\DejaVu\DejaVuSans-BoldOblique.ttf" />
+    <None Include="css\fonts\DejaVu\DejaVuSans-ExtraLight.ttf" />
+    <None Include="css\fonts\DejaVu\DejaVuSans-Oblique.ttf" />
+    <None Include="css\fonts\DejaVu\DejaVuSans.ttf" />
+    <None Include="css\fonts\DejaVu\DejaVuSansMono-Bold.ttf" />
+    <None Include="css\fonts\DejaVu\DejaVuSansMono-BoldOblique.ttf" />
+    <None Include="css\fonts\DejaVu\DejaVuSansMono-Oblique.ttf" />
+    <None Include="css\fonts\DejaVu\DejaVuSansMono.ttf" />
+    <None Include="css\fonts\DejaVu\DejaVuSerif-Bold.ttf" />
+    <None Include="css\fonts\DejaVu\DejaVuSerif-BoldItalic.ttf" />
+    <None Include="css\fonts\DejaVu\DejaVuSerif-Italic.ttf" />
+    <None Include="css\fonts\DejaVu\DejaVuSerif.ttf" />
+    <None Include="css\fonts\glyphs\KendoUIGlyphs.eot" />
+    <None Include="css\fonts\glyphs\KendoUIGlyphs.ttf" />
+    <None Include="css\fonts\glyphs\KendoUIGlyphs.woff" />
+    <None Include="css\fonts\glyphs\WebComponentsIcons.eot" />
+    <None Include="css\fonts\glyphs\WebComponentsIcons.ttf" />
+    <None Include="css\fonts\glyphs\WebComponentsIcons.woff" />
+    <None Include="images\images\kendoui.ttf" />
+    <None Include="images\images\kendoui.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\av.common.min.css" />
+    <Content Include="css\av.default.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\fonts\DejaVu\LICENSE.txt" />
+    <Content Include="css\fonts\glyphs\KendoUIGlyphs.svg" />
+    <Content Include="css\fonts\glyphs\WebComponentsIcons.svg" />
+    <Content Include="images\Default\editor.png" />
+    <Content Include="images\Default\imagebrowser.png" />
+    <Content Include="images\Default\indeterminate.gif" />
+    <Content Include="images\Default\loading-image.gif" />
+    <Content Include="images\Default\loading.gif" />
+    <Content Include="images\Default\loading_2x.gif" />
+    <Content Include="images\Default\markers.png" />
+    <Content Include="images\Default\markers_2x.png" />
+    <Content Include="images\Default\slider-h.gif" />
+    <Content Include="images\Default\slider-v.gif" />
+    <Content Include="images\Default\sprite.png" />
+    <Content Include="images\Default\sprite_2x.png" />
+    <Content Include="images\Default\sprite_kpi.png" />
+    <Content Include="images\Default\sprite_kpi_2x.png" />
+    <Content Include="images\images\back.png" />
+    <Content Include="images\images\kendoui.svg" />
+    <Content Include="images\images\wp8_icons.png" />
+    <Content Include="images\images\wp8_inverseicons.png" />
+    <Content Include="images\Metro\editor.png" />
+    <Content Include="images\Metro\imagebrowser.png" />
+    <Content Include="images\Metro\indeterminate.gif" />
+    <Content Include="images\Metro\loading-image.gif" />
+    <Content Include="images\Metro\loading.gif" />
+    <Content Include="images\Metro\loading_2x.gif" />
+    <Content Include="images\Metro\markers.png" />
+    <Content Include="images\Metro\markers_2x.png" />
+    <Content Include="images\Metro\slider-h.gif" />
+    <Content Include="images\Metro\slider-v.gif" />
+    <Content Include="images\Metro\sprite.png" />
+    <Content Include="images\Metro\sprite_2x.png" />
+    <Content Include="images\Metro\sprite_kpi.png" />
+    <Content Include="images\Metro\sprite_kpi_2x.png" />
+    <Content Include="js\av.all.min.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-3.5.1.min.js" />
+    <Content Include="js\jspdf.min.js" />
+    <Content Include="js\jszip.min.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
